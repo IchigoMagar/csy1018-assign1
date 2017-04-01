@@ -139,7 +139,8 @@ text-decoration: none;
 }
 .Footer{
   color:purple;
-  font-size: 20px;
+  font-size: 18px;
+
 }
 .feedback {
   display: flex;
@@ -194,51 +195,4 @@ text-align: justify;
   display: flex;
   flex-direction: row;
 padding: 2px 2px 2px 2px
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width:"1200px")
-{
-body{
-
-  flex-direction: column;
-}
-.logo{
-
-  flex-direction: column;
-}
-
-.navigationbar{
-  flex-direction: column;
-}
-.contents{
-
-  flex-direction: column;
-}
-.photo
-{
-  flex-direction: column;
-  }
-  .quotes{
-    flex-direction: column;
-  }
-
 }
