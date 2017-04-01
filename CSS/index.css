@@ -16,15 +16,21 @@ padding:5px 5px 5px 5px;
 .navigationbar ul li{
   display:block;
   list-style: none;
-  border-radius: 5px;
-
-
+  border-radius: 100%;
 }
+
+
+
 .navigation ul li:before{
   position: absolute;
   content: "";
   background-color: #00ffff;
   border-radius: 50%
+}
+.navigationbar ul li:hover .fa{
+  color:#008000;
+  transform: rotateY(360deg);
+  transition: 1.5s;
 }
 .navigationbar ul li a {
   text-decoration: none;
