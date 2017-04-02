@@ -57,7 +57,12 @@ input[type=email]{
     margin: 2px 2px;
     border-radius: 4px;
     cursor: pointer;
+    bottom:2px;
     box-shadow:2px 2px 2px  black;
+}
+.submit:hover{
+  bottom:2px;
+  box-shadow:2px 2px 2px  black;
 }
 .submit:active .submit{
   box-shadow: 0;
