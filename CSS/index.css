@@ -28,7 +28,7 @@ padding:5px 5px 5px 5px;
   border-radius: 50%
 }
 .navigationbar ul li:hover .fa{
-  color:#008000;
+  color:#00802b;
   transform: rotateY(360deg);
   transition: 0.5s;
 }
@@ -100,6 +100,8 @@ margin-bottom: 5px;
 
 
 .quotes{
+  display: flex;
+  flex-direction: row;
 justify-content: center;
 margin-left: 5%;
 margin-right: 5px;
@@ -112,8 +114,31 @@ width:50%;
  margin:1%;
 text-align: center;
 font-size: 20px;
-
-
+}
+.work {
+  text-align: center;
+  width:150px;
+  height:150px;
+  border-radius: 100%;
+  background-color: white;
+  opacity:0.6;
+margin-top: 80px;
+}
+.work p{
+padding-top:50px;
+}
+.skills{
+  text-align: center;
+  width:150px;
+  height:150px;
+  border-radius: 100%;
+  background-color: white;
+  opacity:0.6;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.skills p{
+  padding-top: 50px;
 }
 .Footer{
   color:purple;
@@ -142,7 +167,9 @@ font-size: 20px;
 .follow ul li a {
 text-decoration: none;
 }
-
+.folllow ul li:hover{
+  color:blue;
+}
 
 .feedback {
   display: flex;
