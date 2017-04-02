@@ -30,7 +30,7 @@ padding:5px 5px 5px 5px;
 .navigationbar ul li:hover .fa{
   color:#008000;
   transform: rotateY(360deg);
-  transition: 1.5s;
+  transition: 0.5s;
 }
 .navigationbar ul li a {
   text-decoration: none;
@@ -71,6 +71,7 @@ margin-bottom: 5px;
 .photo:hover{
   background-image: url(../images/543.jpg);
   background-size: 120%;
+
 }
 .photo:after{
   content:attr(data-text);
@@ -79,22 +80,21 @@ margin-bottom: 5px;
   background-color: rgba(0,0,0,0.6);
   color:white;
   opacity:0;
-  transition: 0.4s;
+  transition: 0.5s;
   bottom:40%;
   left:14%;
   text-align: center;
-
-
-
+  padding:8px;
 }
  .photo:hover:after{
    content:attr(data-text);
-   bottom:40%auto;
+   bottom:40%;
    left:14%;
    cursor:pointer;
    transition: 0.7s;
    opacity:1;
    padding:8px
+
 }
 
 
@@ -116,6 +116,8 @@ font-size: 20px;
 
 }
 .Footer{
+  color:purple;
+  font-size: 18px;
   display:flex;
   flex-direction: row;
   width:100%;
@@ -124,9 +126,7 @@ font-size: 20px;
   width:50%;
 
 }
-.follow p{
-  font-size: 18px;
-}
+
 .follow ul{
 
   display: flex;
@@ -137,17 +137,13 @@ font-size: 20px;
   font-size:34px;
   padding:2px;
   margin:2px;
-
-
 }
+
 .follow ul li a {
 text-decoration: none;
 }
-.Footer{
-  color:purple;
-  font-size: 18px;
 
-}
+
 .feedback {
   display: flex;
 flex-direction: row;
@@ -198,7 +194,35 @@ text-align: justify;
   padding-right: 15px;
 }
 .talents{
-  display: flex;
-  flex-direction: row;
+width: 50%;
 padding: 2px 2px 2px 2px
 }
+.talents p{
+  text-align: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 200px;
+    height:200px
+  }
+  div.gallery:hover {
+      border: 2px solid #777;
+  }
+
+  div.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.descr {
+      padding: 5px;
+      text-align: center;
+      font-size: 15px;
+      display:none;
+
+  }
+  div.descr:active:hover{
+
+  }
