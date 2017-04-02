@@ -21,7 +21,7 @@ padding:5px 5px 5px 5px;
 
 
 
-.navigation ul li:before{
+.navigation ul li::before{
   position: absolute;
   content: "";
   background-color: #00ffff;
@@ -35,9 +35,9 @@ padding:5px 5px 5px 5px;
 .navigationbar ul li a {
   text-decoration: none;
   border-radius: 5px;
-font-size:34px;
-overflow: hidden;
-position: relative;
+  font-size:34px;
+  overflow: hidden;
+  position: relative;
 
 
 
@@ -46,24 +46,21 @@ position: relative;
   display:flex;
   flex-direction: row;
   background-color: 	#00ffff;
-width:100%;
-
-
-
+  width:100%;
 }
 .photo{
   background-image: url(../images/543.jpg);
   width:350px;
   height:350px;
   border-radius: 100%;
-transition: 0.5s;
-background-position:center;
-background-size: 100%;
-justify-content: center;
-margin-left:10%;
-background-repeat: no-repeat;
-margin-top: 5px;
-margin-bottom: 5px;
+  transition: 0.5s;
+  background-position:center;
+  background-size: 100%;
+  justify-content: center;
+  margin-left:10%;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  margin-bottom: 5px;
 
 
 
@@ -73,7 +70,7 @@ margin-bottom: 5px;
   background-size: 120%;
 
 }
-.photo:after{
+.photo::after{
   content:attr(data-text);
   position:absolute;
   overflow:hidden;
@@ -86,7 +83,7 @@ margin-bottom: 5px;
   text-align: center;
   padding:8px;
 }
- .photo:hover:after{
+ .photo:hover::after{
    content:attr(data-text);
    bottom:40%;
    left:14%;
@@ -227,29 +224,3 @@ padding: 2px 2px 2px 2px
 .talents p{
   text-align: center;
 }
-div.gallery {
-    margin: 5px;
-    border: 2px solid #ccc;
-    float: left;
-    width: 200px;
-    height:200px
-  }
-  div.gallery:hover {
-      border: 2px solid #777;
-  }
-
-  div.gallery img {
-      width: 100%;
-      height: auto;
-  }
-
-  div.descr {
-      padding: 5px;
-      text-align: center;
-      font-size: 15px;
-      display:none;
-
-  }
-  div.descr:active:hover{
-
-  }
