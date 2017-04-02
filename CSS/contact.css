@@ -47,7 +47,6 @@ input[type=email]{
   border-radius: 5px;
 }
 
-
 input[type=submit] {
     width: 5%;
     background-color: #4CAF50;
@@ -60,6 +59,7 @@ input[type=submit] {
     input[type=submit]:hover {
         background-color: #45a049;
         border-radius: 5px;
+
     }
 .merocontacts{
   width:100%;
