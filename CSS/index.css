@@ -122,7 +122,8 @@ font-size: 20px;
 margin-top: 80px;
 }
 .work p{
-padding-top:50px;
+  font-size: 15px;
+padding-top:25px;
 }
 .skills{
   text-align: center;
@@ -136,6 +137,7 @@ padding-top:50px;
 }
 .skills p{
   padding-top: 50px;
+  font-size:15px;
 }
 .Footer{
   color:purple;
@@ -153,6 +155,11 @@ padding-top:50px;
 
   display: flex;
   flex-direction: row;
+  margin-top:2px;
+  margin-bottom: 2px;
+}
+.follow h5{
+  margin-top:2px;
 }
 .follow ul li{
   list-style: none;
@@ -180,7 +187,7 @@ flex-direction: row;
 
 .mero{
   width:100%;
-  height:420px;
+  height:400px;
   background-color:#00ffff;
   display:flex;
   flex-direction: row;
@@ -223,4 +230,26 @@ padding: 2px 2px 2px 2px
 }
 .talents p{
   text-align: center;
+}
+
+
+@media all and (max-width: 1200px)
+{
+body{
+text-size:15px;
+display:flex
+
+}
+.navigationbar ul{
+  flex-direction: column;
+}
+.navigationbar ul li{
+  flex-direction: column;
+}
+.navigationbar ul li:hover{
+  flex-direction: column;
+}
+.navigationbar ul li
+.navigationbar ul li .fa{
+flex-direction: column;
 }
