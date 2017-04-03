@@ -1,6 +1,6 @@
 body{
 font-family: 'Source Sans Pro', sans-serif;
-height:380px;
+
 }
 .class1{
   width:50%;
@@ -10,6 +10,12 @@ height:380px;
 }
 .contactme{
 width:50%;
+}
+.contactphoto img{
+  height:150px;
+  width:150px;
+  border-radius: 5px;
+  margin-left:250px;
 }
 .form{
   display:flex;
@@ -26,14 +32,14 @@ width:50%;
 
 }
 textarea {
-    width: 100%;
+    width: 95%;
     height: 50px;
     padding: 10px 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 5px;
     background-color: #f8f8f8;
-    font-size: 10px;
+
 
 }
 input[type=text]
@@ -46,7 +52,7 @@ input[type=text]
      border-radius: 5px;
 }
 input[type=email]{
-  width:60%;
+  width:70%;
   margin:4px 0;
   padding: 8px 8px;
   box-sizing: border-box;

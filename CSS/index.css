@@ -35,7 +35,7 @@ padding:5px 5px 5px 5px;
 .navigationbar ul li a {
   text-decoration: none;
   border-radius: 5px;
-  font-size:34px;
+  font-size:2.5em;
   overflow: hidden;
   position: relative;
 
@@ -123,7 +123,7 @@ margin-top: 80px;
 }
 .work p{
   font-size: 15px;
-padding-top:25px;
+padding-top:1.5em;
 }
 .skills{
   text-align: center;
@@ -137,7 +137,7 @@ padding-top:25px;
 }
 .skills p{
   padding-top: 50px;
-  font-size:15px;
+  font-size:1.5em;
 }
 .Footer{
   color:purple;
@@ -163,7 +163,7 @@ padding-top:25px;
 }
 .follow ul li{
   list-style: none;
-  font-size:34px;
+  font-size:2em;
   padding:2px;
   margin:2px;
 }
@@ -181,17 +181,26 @@ flex-direction: row;
 }
 .feedback a{
   text-decoration: none;
-  font-size:34px;
+  font-size:2em;
   justify-content: flex-end;
 }
 
 .mero{
   width:100%;
-  height:400px;
   background-color:#00ffff;
   display:flex;
   flex-direction: row;
-font-size: 18px;
+font-size: 0.9em;
+color:purple;
+}
+.merobio{
+
+  width:100%;
+  height:390px;
+  background-color:#00ffff;
+  display:flex;
+  flex-direction: row;
+font-size: 0.9em;
 color:purple;
 }
 
@@ -202,14 +211,21 @@ color:purple;
 }
 .surface{
   width:50%
+
+
 }
 .paragraph{
   padding-left: 15px;
   padding-right: 50px;
 text-align: justify;
 }
+.personal h5{
+  padding-left: 15px;
+
+}
 .education{
   padding-left: 15px;
+
 }
 .Coreskill{
   padding-left: 15px;
@@ -236,7 +252,7 @@ padding: 2px 2px 2px 2px
 @media all and (max-width: 1200px)
 {
 body{
-text-size:15px;
+
 display:flex
 
 }
@@ -249,7 +265,8 @@ display:flex
 .navigationbar ul li:hover{
   flex-direction: column;
 }
-.navigationbar ul li
+
 .navigationbar ul li .fa{
 flex-direction: column;
+}
 }
