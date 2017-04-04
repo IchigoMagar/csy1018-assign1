@@ -122,8 +122,8 @@ font-size: 20px;
 margin-top: 80px;
 }
 .work p{
-  font-size: 15px;
-padding-top:1.5em;
+  font-size: .8em;
+padding-top:50px;
 }
 .skills{
   text-align: center;
@@ -137,7 +137,7 @@ padding-top:1.5em;
 }
 .skills p{
   padding-top: 50px;
-  font-size:1.5em;
+  font-size:.8em;
 }
 .Footer{
   color:purple;
@@ -251,12 +251,11 @@ padding: 2px 2px 2px 2px
 
 @media all and (max-width: 1200px)
 {
-body{
-
-display:flex
-
-}
+  .header{
+    width: 100%;
+  }
 .navigationbar ul{
+  display: flex;
   flex-direction: column;
 }
 .navigationbar ul li{
