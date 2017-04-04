@@ -123,7 +123,7 @@ margin-top: 80px;
 }
 .work p{
   font-size: .8em;
-padding-top:50px;
+padding-top:45px;
 }
 .skills{
   text-align: center;
@@ -234,7 +234,7 @@ text-align: justify;
   padding-left: 15px;
 }
 .bio{
-  width:50%;
+  width:40%;
   text-align: justify;
   justify-content: center;
   padding-left: 15px;
@@ -247,8 +247,25 @@ padding: 2px 2px 2px 2px
 .talents p{
   text-align: center;
 }
-
-
+div.slide{
+  margin: 4px;
+   border: 1px solid #ccc;
+   width: 190px;
+  float: left;
+}
+div.slide:hover{
+  border: 1px solid #777;
+}
+div.slide img{
+  width: 100%;
+     height: auto;
+}
+div.description{
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8em;
+}
+}
 @media all and (max-width: 1200px)
 {
   .header{
