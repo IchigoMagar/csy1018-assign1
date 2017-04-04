@@ -12,10 +12,11 @@ font-family: 'Source Sans Pro', sans-serif;
 width:50%;
 }
 .contactphoto img{
-  height:150px;
-  width:150px;
-  border-radius: 5px;
+  height:200px;
+  width:200px;
+  border-radius: 15px;
   margin-left:250px;
+
 }
 .form{
   display:flex;
@@ -31,7 +32,7 @@ width:50%;
     padding: 25px;
 
 }
-textarea {
+textarea { /* This is the text area for feedback*/
     width: 95%;
     height: 50px;
     padding: 10px 10px;
@@ -42,7 +43,7 @@ textarea {
 
 
 }
-input[type=text]
+input[type=text] /* input for feedback*/
 {
   width: 70%;
      padding: 8px 8px;
@@ -51,7 +52,7 @@ input[type=text]
      border: 2px solid purple;
      border-radius: 5px;
 }
-input[type=email]{
+input[type=email]{ /* text type Email must invlude @ , if not warning appears*/
   width:70%;
   margin:4px 0;
   padding: 8px 8px;
@@ -60,7 +61,8 @@ input[type=email]{
   border-radius: 5px;
 }
 
-input[type=submit] {
+input[type=submit] /* Submit buttons which atomatically redirects the feedback*/
+{
     width: 25%;
     background-color: #4CAF50;
     color: white;
@@ -74,7 +76,8 @@ input[type=submit] {
         border-radius: 5px;
 
     }
-    input[type=submit]:active .input[type=submit]:hover{
+    input[type=submit]:active .input[type=submit]:hover /* Some 3d button property*/
+    {
       border:0;
       border-radius: 5px;
     }
@@ -87,4 +90,22 @@ input[type=submit] {
 .contactme{
   width:50%;
 
+}
+@media screen (max width 1200px)
+{
+body{
+font-size: 15px;
+
+}
+.navigationbar ul li{
+  flex-direction: column;
+
+}
+.merocontacts{
+flex-direction: column;
+
+}
+.class1{
+  flex:1;
+}
 }
