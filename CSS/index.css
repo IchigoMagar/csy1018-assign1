@@ -21,18 +21,18 @@ padding:5px 5px 5px 5px;
 
 
 
-.navigation ul li::before{
+.navigation ul li::before{ /* This property makes navigation icons absolute */
   position: absolute;
   content: "";
   background-color: #00ffff;
   border-radius: 50%
 }
-.navigationbar ul li:hover .fa{
+.navigationbar ul li:hover .fa{ /* This makes navigation icons rotate in360 deg */
   color:#00802b;
   transform: rotateY(360deg);
   transition: 0.5s;
 }
-.navigationbar ul li a {
+.navigationbar ul li a { /* Here it prevents overflow and ::before position now here is relative */
   text-decoration: none;
   border-radius: 5px;
   font-size:2.5em;
@@ -48,7 +48,7 @@ padding:5px 5px 5px 5px;
   background-color: 	#00ffff;
   width:100%;
 }
-.photo{
+.photo{ /* Background Image in photo div*/
   background-image: url(../images/543.jpg);
   width:350px;
   height:350px;
@@ -70,26 +70,26 @@ padding:5px 5px 5px 5px;
   background-size: 120%;
 
 }
-.photo::after{
+.photo::after{ /* class photo has data-text called  after hover on background image*/
   content:attr(data-text);
   position:absolute;
   overflow:hidden;
   background-color: rgba(0,0,0,0.6);
   color:white;
-  opacity:0;
+  opacity:0; /* Opacity nulifies the data-text*/
   transition: 0.5s;
   bottom:40%;
   left:14%;
   text-align: center;
   padding:8px;
 }
- .photo:hover::after{
+ .photo:hover::after{ /* data-text is now here recalled and is displayed when cursor is hovered over image*/
    content:attr(data-text);
    bottom:40%;
    left:14%;
    cursor:pointer;
    transition: 0.7s;
-   opacity:1;
+   opacity:1; /* This makes blur background while text is clear*/
    padding:8px
 
 }
@@ -191,8 +191,8 @@ flex-direction: row;
   background-color:#00ffff;
   display:flex;
   flex-direction: row;
-font-size: 0.9em;
-color:purple;
+  font-size: 0.9em;
+  color:purple;
 }
 .merobio{
 
@@ -201,8 +201,8 @@ color:purple;
   background-color:#00ffff;
   display:flex;
   flex-direction: row;
-font-size: 0.9em;
-color:purple;
+  font-size: 0.9em;
+  color:purple;
 }
 
 .float{
@@ -218,7 +218,7 @@ color:purple;
 .paragraph{
   padding-left: 15px;
   padding-right: 50px;
-text-align: justify;
+  text-align: justify;
 }
 .personal h5{
   padding-left: 15px;
@@ -242,10 +242,8 @@ text-align: justify;
   padding-right: 15px;
 }
 .talents{
-width: 50%;
-padding: 2px 2px 2px 2px
-display:flex;
-flex-direction: column;
+  width: 50%;
+  padding: 2px 2px 2px 2px
 }
 .talents p{
   text-align: center;
@@ -263,6 +261,10 @@ div.slide img{
   width: 100%;
      height: auto;
 }
+div.slide img:hover {
+transform:scale(2.5,2);
+transition:0.5s;
+}
 div.description{
   padding: 15px;
   text-align: center;
@@ -273,7 +275,7 @@ div.description{
   box-shadow: 2px 2px solid brown;
 
 }
-@media all and (max-width: 1200px)
+@media all and (max-width: 1200px) /* Used to make webite responsive */
 {
   .header{
     width: 100%;
