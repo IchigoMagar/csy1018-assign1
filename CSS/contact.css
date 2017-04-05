@@ -55,7 +55,7 @@ textarea { /* This is the text area for feedback*/
     font-size: .9em;
 
 }
-input[type=text] /* input for feedback*/
+input[type=text] /* input section for feedback*/
 {
   width: 80%;
      padding: 7px 7px;
