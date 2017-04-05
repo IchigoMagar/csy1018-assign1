@@ -277,10 +277,6 @@ div.description{
   font-size: 0.8em;
 
 }
-.see a:hover{
-  box-shadow: 2px 2px brown;
-
-}
 @media all and (max-width: 1200px) /* Used to make webite responsive */
 {
   .header{
@@ -338,13 +334,13 @@ margin-left: 45%;
 }
 .work {
   margin-top: 15px;
-  margin-left: 35%;/* to make it look better while switching into mobile screen and desktop screen and viceversa*/
+  margin-left: 25%;/* to make it look better while switching into mobile screen and desktop screen and viceversa*/
   margin-bottom:5px;
 }
 
 .skills {
   margin-top:15px;
-  margin-left:35%; /* to make it look better while switching into mobile screen and desktop screen and viceversa*/
+  margin-left:25%; /* to make it look better while switching into mobile screen and desktop screen and viceversa*/
   margin-bottom: 10px;
 }
 .merobio{
@@ -402,6 +398,10 @@ margin-left: 45%;
 .feedback h5{
   font-size: 0.9em;
 }
+div.slide{
+  margin-left: 25%;
+}
+
 div.slide img:hover {
 
   transform:scale(1,1); /*to fix the transform scale while in mobile size*/
