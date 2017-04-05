@@ -81,14 +81,14 @@ padding:5px 5px 5px 5px;
   color:white;
   opacity:0; /* Opacity nulifies the data-text*/
   transition: 0.5s;
-  bottom:40%;
+  bottom:30%;
   left:14%;
   text-align: center;
   padding:8px;
 }
  .photo:hover::after{ /* data-text is now here recalled and is displayed when cursor is hovered over image*/
    content:attr(data-text);
-   bottom:40%;
+   bottom:30%;
    left:14%;
    cursor:pointer;
    transition: 0.7s;
@@ -289,15 +289,123 @@ div.description{
 .navigationbar ul{
   display: flex;
   flex-direction: column;
+
 }
 .navigationbar ul li{
+background-color: white;
   flex-direction: column;
+  margin: 2px;
+  border-radius: 15px;
+  opacity: 0.8;
 }
 .navigationbar ul li:hover{
   flex-direction: column;
+  transition-duration: 0.8s;
+  opacity:1;
 }
 
 .navigationbar ul li .fa{
 flex-direction: column;
 }
+
+.contents{
+  flex-direction: column;
+  height:auto;
+
+}
+.photo {
+  width:250px;
+  height:250px;
+  margin-left: 7.5%;
+}
+.photo::after{
+  bottom:25%;
+  left:10%;
+}
+.photo:hover::after{
+  bottom:25%;
+  left:10%;
+}
+.quotes{
+  flex-direction: column;
+  width:80%;
+}
+.quotes article{
+  margin-left: 35px;
+  font-size: .9em;
+
+}
+.work {
+  margin-top: 15px;
+  margin-left: 35%;/* to make it look better while switching into mobile screen and desktop screen and viceversa*/
+  margin-bottom:5px:
+}
+
+.skills {
+  margin-top:15px;
+  margin-left:35%; /* to make it look better while switching into mobile screen and desktop screen and viceversa*/
+  margin-bottom: 10px;
+}
+.merobio{
+  flex-direction: column;
+  height:auto;
+  text-align: center;
+  width:100%;
+}
+.bio{
+  width:90%;
+  background-color:#00ffff;
+
+}
+.bio p{
+  margin-left:2px;
+  font-size: 0.9em;
+  height:auto;
+  margin-right:2px;
+  text-align: justify;
+}
+.talents{
+  flex-direction: column;
+}
+.photslide{
+  flex-direction: column;
+  margin-left: 50%;
+}
+.mero{
+  flex-direction: column;
+}
+.float{
+  width:100%;
+    background-color:#00ffff;
+
+}
+.surface{
+  flex-direction: column;
+  width:90%;
+}
+
+.Footer{
+  flex-direction: column;
+}
+.follow{
+  font-size: 15px;
+
+}
+.follow h5{
+  font-size: 0.9em;
+}
+.feedback{
+  font-size: 15px;
+
+}
+.feedback h5{
+  font-size: 0.9em;
+}
+div.slide img:hover {
+
+  transform:scale(1,1); /*to fix the transform scale while in mobile size*/
+  transition:0.5s;
+}
+
+
 }
