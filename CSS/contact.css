@@ -1,12 +1,12 @@
 body{
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; /*This is the google font */
 
 }
 fieldset{
   width:75%;
   height:370px;
 }
-.merocontacts{
+.merocontacts{ /*section of the page*/
   display:flex;
   flex-direction: row;
   width:100%;
@@ -52,6 +52,7 @@ textarea { /* This is the text area for feedback*/
     border-radius: 5px;
     background-color: #f8f8f8;
     margin-bottom: 1px;
+    font-size: .9em;
 
 }
 input[type=text] /* input for feedback*/
@@ -84,7 +85,7 @@ input[type=submit] /* Submit buttons which atomatically redirects the feedback*/
     border-radius: 5px;
     cursor: pointer;
   }
-input[type=submit]:hover {
+input[type=submit]:hover { /* This makes submit like a button*/
         background-color: #45a049;
         border-radius: 5px;
 
