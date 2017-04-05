@@ -278,7 +278,7 @@ div.description{
 
 }
 .see a:hover{
-  box-shadow: 2px 2px solid brown;
+  box-shadow: 2px 2px brown;
 
 }
 @media all and (max-width: 1200px) /* Used to make webite responsive */
@@ -306,6 +306,7 @@ background-color: white;
 
 .navigationbar ul li .fa{
 flex-direction: column;
+margin-left: 45%;
 }
 
 .contents{
@@ -338,7 +339,7 @@ flex-direction: column;
 .work {
   margin-top: 15px;
   margin-left: 35%;/* to make it look better while switching into mobile screen and desktop screen and viceversa*/
-  margin-bottom:5px:
+  margin-bottom:5px;
 }
 
 .skills {

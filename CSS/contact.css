@@ -2,12 +2,11 @@ body{
 font-family: 'Source Sans Pro', sans-serif;
 
 }
-.class1{
-  width:50%;
+fieldset{
+  width:100%
+
 }
-.class2{
-  width:50%;
-}
+
 .contactme{
 width:50%;
 }
@@ -40,7 +39,7 @@ textarea { /* This is the text area for feedback*/
     border: 2px solid #ccc;
     border-radius: 5px;
     background-color: #f8f8f8;
-
+    margin-bottom: 1px;
 
 }
 input[type=text] /* input for feedback*/
@@ -88,22 +87,31 @@ input[type=submit]:active .input[type=submit]:hover /* Some 3d button property*/
   width:100%;
 }
 .contactme{
-  width:50%;
+  width:100%;
 
 }
+
 @media screen (max width 1200px)
 {
 body{
 font-size: 15px;
 
 }
+fieldset{
+  flex-direction: column;
+}
 .merocontacts{
 flex-direction: column;
 }
-.contactme{
-  flex-direction: column;
+.contactphoto {
+flex-direction: column;
+}
+.class1{
+display:none;
 }
 .fillform{
   flex-direction: column;
+  font-size: 0.9em;
 }
+
 }
