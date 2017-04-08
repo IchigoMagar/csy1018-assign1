@@ -277,7 +277,7 @@ div.description{
   font-size: 0.8em;
 
 }
-@media all and (max-width: 1200px) /* Used to make website responsive */
+@media all and (max-width: 1200px) /* Used to make webite responsive */
 {
   .header{
     width: 100%;

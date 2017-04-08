@@ -98,7 +98,7 @@ input[type=submit]:active .input[type=submit]:hover /* Some 3d button property*/
 
 }
 
-@media all and (max-width: 1200px) /* Used to make website responsive */
+@media all and (max-width: 1200px) /* Used to make webite responsive */
 {
   fieldset{
     height:auto;
